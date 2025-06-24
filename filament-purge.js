@@ -26,6 +26,7 @@ const versionNumber = version !== -1 ? process.argv[version + 1] : "2.x";
 const urls = {
   "2.x": "https://raw.githubusercontent.com/filamentphp/filament/2.x/packages/admin/dist/app.css",
   "3.x": "https://raw.githubusercontent.com/filamentphp/filament/3.x/packages/panels/dist/theme.css",
+  "4.x": "https://raw.githubusercontent.com/filamentphp/filament/4.x/packages/panels/dist/theme.css"
 };
 
 if (!urls.hasOwnProperty(versionNumber)) {
